@@ -172,6 +172,13 @@ textarea {
   /* Style adjustments for viewports that meet the condition */
 }
 
+@media screen and (max-width: 720px) {
+  img {
+    width: 60%;
+    height: 60%;
+  }
+  }
+
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 1.25dppx),
@@ -254,6 +261,7 @@ div {
 }
 
 img {
-  /* width: 60%; */
+  /* width: 50%; */
   height: 300px;
+  /* margin: 50px; */
 }
